@@ -1,0 +1,13 @@
+LANGUAGE,"English","Czech"
+STR_CELO_LOAD_TEXT,"Prepare for battle","Připrav se na bitvu"
+STR_CELO_MissionName,"Battle of Stará Pole","Bitva na Starých Polích"
+STR_CELO_DiaryName,"Battle of Stará Pole","Bitva na Starých Polích"
+STR_CELO_DiaryDescription,"The enemy had gathered at a place called <marker name=""target"">Staré Pole</marker>. Task of the conquest of your position and spray the enemy position before completing the advantageous position. You can call artilery for your support.","Nepřítel se shromáždil na místě zvaném <marker name=""target"">Stará Pole</marker>. Vašim úkolem bude dobytí této pozice a rozprášení nepřátelského postavení před dobudováním výhodného postavení.<br>K dispozici vám budou tři tankové a několik pěších jednotek. V případě potřeby přivolat artilerii. Vaše krycí jméno je Pytlák."
+STR_CELO_Task1Name,"Attack Stará Pole","Dobytí Starých Polí"
+STR_CELO_Task1Descr1_0,"Attack enemy position near Stará Pole","Zaútoč na nepřátelskou pozici"
+STR_CELO_Task1Descr1_1,"Attack Stará Pole","Dobytí Starých Polí"
+STR_CELO_Task1Descr1_2,"Stará Pole","Stará Pole"
+STR_CELO_title1,"Celoush","Celoush",
+STR_CELO_title2,"present","uvádí",
+STR_CELO_title3,"Battle of Stará Pole","Bitva na Starých Polích",
+STR_CELO_title4,"Mission Accomplished","Mise splněna",

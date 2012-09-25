@@ -1,0 +1,123 @@
+;exit
+_camera = "camera" camCreate [0,0,0]
+_camera camPrepareTarget [0,0,1]
+_camera cameraEffect ["internal", "BACK"]
+_camera camCommitPrepared 0
+titleCut ["", "BLACK IN", 5];
+0 fademusic 0.7
+0 fadesound 0
+; bezci
+
+"colorCorrections" ppEffectAdjust [1, 1, -0.0045, [0.0, 0.0, 0.0, 0.0], [1, 0.6, 0.4, 0.4],  [0.199, 0.587, 0.114, 0.0]]; 
+"colorCorrections" ppEffectCommit 0;  
+"colorCorrections" ppEffectEnable true;
+
+;=== 23:21:10
+_camera camPrepareTarget [46530.86,-82777.34,364.03]
+_camera camPreparePos [6940.31,9057.12,1.61]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 0
+@camCommitted _camera
+
+"dynamicBlur" ppEffectEnable true;   
+"dynamicBlur" ppEffectAdjust [6];   
+"dynamicBlur" ppEffectCommit 0;     
+"dynamicBlur" ppEffectAdjust [0.0];  
+"dynamicBlur" ppEffectCommit 3;
+
+;=== 23:21:18
+_camera camPrepareTarget [46530.86,-82777.34,364.20]
+_camera camPreparePos [6958.65,9065.02,1.95]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 8
+~3
+5 fadesound 1
+@camCommitted _camera
+
+; tank
+
+;=== 23:14:54
+_camera camPrepareTarget [-47295.91,92770.30,-1609.56]
+_camera camPreparePos [6985.93,8795.31,0.56]
+_camera camPrepareFOV 1
+_camera camCommitPrepared 0
+@camCommitted _camera
+
+
+;=== 23:14:39
+_camera camPrepareTarget [-46176.58,91038.63,20096.13]
+_camera camPreparePos [6984.45,8797.61,0.21]
+_camera camPrepareFOV 0.688
+_camera camCommitPrepared 4
+@camCommitted _camera
+
+~4
+
+; tanky
+
+;=== 23:25:16
+_camera camPrepareTarget [-65929.17,77677.88,-130.61]
+_camera camPreparePos [6735.72,8976.98,3.01]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 0
+@camCommitted _camera
+
+;=== 23:25:32
+_camera camPrepareTarget [-65929.17,77677.88,-130.61]
+_camera camPreparePos [6772.94,8957.89,1.69]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 9
+@camCommitted _camera
+
+~1.2
+
+; tanky pozice + prijezd
+
+;=== 23:29:29
+_camera camPrepareTarget [78635.92,78756.39,310.76]
+_camera camPreparePos [7056.18,8921.56,1.27]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 0
+@camCommitted _camera
+;=== 23:29:35
+_camera camPrepareTarget [78635.92,78756.39,310.76]
+_camera camPreparePos [7064.81,8920.51,0.91]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 7.5
+@camCommitted _camera
+;=== 23:29:50
+_camera camPrepareTarget [78635.92,78756.39,310.76]
+_camera camPreparePos [7085.04,8940.25,1.60]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 10
+~8
+
+; ZAVER + HQ
+;=== 23:55:40
+_camera camPrepareTarget [-55676.25,-68711.07,-4305.52]
+_camera camPreparePos [6930.86,9119.47,2.80]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 0
+@camCommitted _camera
+;=== 23:56:02
+_camera camPrepareTarget [-55676.25,-68711.07,-4305.54]
+_camera camPreparePos [6957.86,9097.74,0.49]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 7
+@camCommitted _camera
+
+_camera camPrepareTarget hq
+_camera camPrepareFOV 0.100
+_camera camCommitPrepared 3
+titleCut ["", "BLACK OUT", 3];
+4 fadesound 0
+4 fademusic 1
+~4
+titleRsc ["titlesceloush", "PLAIN"];
+~5
+titleRsc ["titlesuvadi", "PLAIN"];
+~5
+titleRsc ["titlesorb", "PLAIN"];
+~8
+konec=True
+exit;
